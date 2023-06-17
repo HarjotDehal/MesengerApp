@@ -72,6 +72,8 @@ const DesktopSidebar: React.FC<DesktopSidebarProps>= ({
     onClick={item.onClick}/>
 ))}
 
+{/* change active = back to just item.active */}
+
 
 
 </ul>

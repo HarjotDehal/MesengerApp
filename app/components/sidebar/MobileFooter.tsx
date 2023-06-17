@@ -38,7 +38,7 @@ const MobileFooter = () => {
    <MobileItem
     key={route.href}
     href={route.href}
-    active={route.active}
+    active={route.active? true : false }
     icon={route.icon}
     onClick={route.onClick}/>
 ))}
