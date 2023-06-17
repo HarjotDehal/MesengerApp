@@ -88,7 +88,8 @@ if(typeof window !== 'undefined'){
             const darkChanges =()=>{
 
             
-
+                let demo = document.getElementById('jatt8');
+                demo?.classList.add('text-white');
 
                 let t2= document.getElementById('myback');
                 t2?.classList.remove('bg-gray-100')
@@ -157,6 +158,11 @@ if(typeof window !== 'undefined'){
             }
            
             const lightChanges =()=>{
+
+
+                let demo = document.getElementById('jatt8');
+                demo?.classList.remove('text-white');
+
 
           let t2= document.getElementById('myback');
           t2?.classList.add('bg-gray-100')
